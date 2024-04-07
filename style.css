@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --navbar-height:59px;
+    --primary-color:#2c3855;
+    --primary-color:#435681;
+    --test-dark:#333333;
+    --text-light:#5d5b54;
+    --extralight:#f3f4f6;
+    --white:#ffffff;
+    --max-width: 1200px;
+
+}
+#navbar{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+.section_header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+img{
+    
+  width: 100%;
+  display: flex;
+}
+
+
+
+body{
+    font-family: "Outfit", sans-serif;/*font name*/
+}
+
+nav{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex ;
+    align-items:center;
+    justify-content: space-between;
+}
+.nav_logo{
+    font: size 100px;
+    font-weight: 100PX;
+    color: var(--test-dark);
+    margin: 34px 45px;
+    
+}
+#logo img{
+  height: 56px;
+  margin: 10px 5%;
+}
+
+img {
+    border-radius: 2px;
+  }
+
+
+  .nav_links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 9rem;
+
+}
+
+.link a {
+    font-weight: 500;
+    color: var(--text-light);
+    transition: 0.3s;
+
+  }
+  .link a:hover{
+      color: var(--primary-color);
+  }
+#navbar{
+  position: relative;
+}
+#navbar ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+    
+  }
+  
+  li {
+    display: block;
+    float:left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #060606;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #f8f2f2;
+  }
+  
+  li a.active {
+    color: rgb(255, 255, 255);
+    background-color: hsl(0, 4%, 74%);
+  }
+  img {
+    max-width: 100%;
+    
+    height: auto;;
+  }
+ 
+
+  
+  
+  .text-block {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    background-color: rgba(0, 0, 0, 0.892);
+    color: white;
+    font-size: 60px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  
+ 
+  /*header */
+  .avatar {
+    vertical-align: middle;
+    width: 90px;
+    height:auto;
+    border-radius: 100%;
+  }
+
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+     
+      
+.responsive {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+  }
+  
+  
+   body {background-color: hsl(84, 20%, 95%);}
+   body {background-color: hsl(0, 14%, 99%);}
+   
+   
